@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Didact Gothic', sans-serif;
+}
+p{
+  font-family: 'Didact Gothic', sans-serif;
+}
+/* .nav-open-btn .line:nth-child(1):hover {
+  transform: translateY(10px) rotate(-45deg);
+  width: 39px;
+}
+.nav-open-btn .line:nth-child(3):hover {
+  transform: translateY(-10px) rotate(45deg);
+  width: 39px;
+  
+}
+.nav-open-btn .line:nth-child(2):hover {
+  opacity: 0;
+} */
+.line{
+  background-color: black;
+}
+
+.test{
+  background: #90ce90;
+}
+
+/* .overlay-1{
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.9s ease-out , visibility 0s;
+  display: hidden;
+  width: 100%;
+}
+.overlay-1.active{
+  transform: translateX(0%);
+  opacity: 1;
+  transition: transform 0.4s ease-out, visibility 0s;
+  display: block;
+} */
+.fa-magnifying-glass{
+  color: black;
+}
+
+.header h1{
+  font-family: 'black Ops One', cursive;
+}
+.footer h1{
+  font-family: 'black Ops One', cursive;
+}
+h1{
+  font-family: 'black Ops One', cursive;
+}
+/* .intro img{
+  box-shadow: 0 ;
+}
+.brands img{
+  height: 100%;
+  width:70%;
+}
+
+
+ footer animation 
+#overlays .fa-chevron-down.active{
+  transform: rotate(180deg);
+}
+#overlay2 .chevron-down2.active{
+  transform: rotate(180deg);
+}
+#overlay3 .chevron-down3.active{
+  transform: rotate(180deg);
+  
+}
+#overlay3 .chevron3.active{
+  transform: translateY(6px);
+  opacity: 1;
+}
+#overlay2 .chevron2.active{
+  transform: translateY(4px);
+  opacity: 1;
+}
+#overlays .chevron1.active{
+  transform: translateY(6px);
+
+} */
